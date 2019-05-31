@@ -1,16 +1,21 @@
-# Theremin #
+# Overview #
 
-Larumbe Theremin, based on OpenTheremin by Urs Gaudenz (http://www.gaudi.ch/OpenTheremin/)
+Larumbe's Theremin, based on [OpenTheremin](http://www.gaudi.ch/OpenTheremin/) by Urs Gaudenz.
+
+<img src="http://larumbe.hopto.org/img/theremin_side.jpg" width="400">
+
+# Operation #
+
+Theremin control consists of two metal antennas that sense the relative position of the performer hands. Right hand controls frequency and left hand controls volume.
+
+Functionality and electronics are similar to that of the OpenThereminUNO 1.2 with some added features: additional LC Colpitts oscillators, LEDs to check appropriate output pitch range, input debouncing and filtering, knob for pitch range selection or midi song autoplaying in calibration mode among others.
+
+Schematics and layouts can be found at my personal website: <https://larumbe.hopto.org>.
 
 
-## Overview ##
+# Misc #
+  * There are some scripts and functions at the MATLAB folder for filtering test purposes.
 
-Functionality is similar to OpenTheremin with extra features, such as autoplaying a midi song in calibration mode, LEDs to check whether notes are in correct pitch, input debouncing to filter spurious short pulses after frequency mixer...
-
-Schematics/layouts will SOON be uploaded.
-
-There are some filter tests on MATLAB folder.
-
-Makefile makes use of Arduino-Makefile (https://github.com/sudar/Arduino-Makefile) to compile/upload files to Arduino by using command-line/Emacs.
+  * Makefile makes use of [Arduino-Makefile](https://github.com/sudar/Arduino-Makefile) to compile and upload binaries to Arduino by using the command line and Emacs.
 
 
