@@ -10,7 +10,7 @@ Theremin control consists of two metal antennas that sense the relative position
 
 Functionality and electronics are similar to that of the OpenThereminUNO 1.2 with some added features: additional LC Colpitts oscillators, LEDs to check appropriate output pitch range, input debouncing and filtering, knob for pitch range selection or midi song autoplaying in calibration mode among others.
 
-Schematics and layouts can be found at my personal website: <https://larumbe.hopto.org>.
+Schematics and layouts can be found at my personal website: <https://gmlarumbe.com>.
 
 
 # Misc #
