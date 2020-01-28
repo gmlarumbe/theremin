@@ -2,7 +2,7 @@
 
 Larumbe's Theremin, based on [OpenTheremin](http://www.gaudi.ch/OpenTheremin/) by Urs Gaudenz.
 
-<img src="http://larumbe.hopto.org/img/theremin_side.jpg" width="400">
+<img src="http://gmlarumbe.com/media/img/Theremin_side.jpg" width="400">
 
 # Operation #
 
@@ -14,6 +14,8 @@ Schematics and layouts can be found at my personal website: <https://larumbe.hop
 
 
 # Misc #
+  * Schematics are included as a rendered PDF in the *schematics* folder.
+
   * There are some scripts and functions at the MATLAB folder for filtering test purposes.
 
   * Makefile makes use of [Arduino-Makefile](https://github.com/sudar/Arduino-Makefile) to compile and upload binaries to Arduino by using the command line and Emacs.
